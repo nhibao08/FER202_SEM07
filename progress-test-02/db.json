@@ -1,0 +1,75 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "anhnv",
+      "password": "admin123",
+      "fullName": "Nguyễn Văn Anh"
+    },
+    {
+      "id": "2",
+      "username": "TamNT",
+      "password": "admin123",
+      "fullName": "Nguyễn Thị Tâm"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "5",
+      "userId": "2",
+      "name": "Breakfast",
+      "amount": 40000,
+      "category": "Food",
+      "date": "2025-10-01"
+    },
+    {
+      "id": "6",
+      "userId": "2",
+      "name": "Internet Bill",
+      "amount": 250000,
+      "category": "Utilities",
+      "date": "2025-10-03"
+    },
+    {
+      "id": "cd55",
+      "name": "Dinner",
+      "amount": 30000,
+      "category": "Food",
+      "date": "2026-03-27",
+      "userId": "1"
+    },
+    {
+      "id": "68a7",
+      "name": "Clothes",
+      "amount": 1000000,
+      "category": "Utilities",
+      "date": "2026-03-12",
+      "userId": "1"
+    },
+    {
+      "id": "ffdc",
+      "name": "Water bill",
+      "amount": 50000,
+      "category": "Utilities",
+      "date": "2026-03-12",
+      "userId": "1"
+    },
+    {
+      "id": "8bea",
+      "name": "Internet",
+      "amount": 250000,
+      "category": "Utilities",
+      "date": "2026-03-12",
+      "userId": "1"
+    },
+    {
+      "id": "bee7",
+      "name": "Milk tea",
+      "amount": 25000,
+      "category": "Food",
+      "date": "2026-03-11",
+      "userId": "1"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
